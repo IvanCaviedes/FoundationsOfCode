@@ -14,4 +14,4 @@ async function main() {
   rl.close();
 }
 
-main();
+module.exports = { prompt, main, rl };
